@@ -1,0 +1,178 @@
+.hero_misivalor_container {
+  height: 80vh;
+  width: 100%;
+  background-color: #000;
+}
+.hero_misivalor_parallax {
+  background-image: url("../../../public/image/vision.avif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.hero_misivalor_parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hero_misivalor_parallax_content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+.hero_misivalor_parallax_content h1 {
+  color: #fff;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-bottom: 40px;
+  border-bottom: 5px outset violet;
+  border-top: 5px outset violet;
+  padding: 10px 0;
+}
+.hero_misivalor_parallax_content span {
+  color: violet;
+}
+.misivalor_text_general {
+  background-image: url(../../../public/svg/back.9.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.misivalor_text_general ul li {
+  list-style: disc;
+  font-size: 1.2rem;
+  color: #dcdcdc;
+  margin-left: 17px;
+}
+.misivalor_text_general ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.misivalor_text {
+  padding: 50px 10px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.misivalor_text h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: start;
+}
+.misivalor_text h2 span {
+  color: violet;
+}
+.misivalor_text p {
+  color: #dcdcdc;
+  z-index: 10;
+  font-size: 1.2rem;
+}
+@media (min-width: 365px) {
+  .misivalor_text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 440px) {
+  .misivalor_text {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 840px) {
+  .misivalor_text {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (min-width: 940px) {
+  .misivalor_text {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+@media (min-width: 1040px) {
+  .misivalor_text {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media (min-width: 1140px) {
+  .misivalor_text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (min-width: 1450px) {
+  .misivalor_text {
+    width: 90%;
+  }
+}
+@media (min-width: 1500px) {
+  .hero_misivalor_container {
+    height: 530px;
+  }
+  .hero_misivalor_parallax {
+    background-position: top;
+  }
+}
+@media (min-width: 1550px) {
+  .misivalor_text {
+    width: 85%;
+  }
+}
+@media (min-width: 1650px) {
+  .misivalor_text {
+    width: 80%;
+  }
+}
+@media (min-width: 1750px) {
+  .misivalor_text {
+    width: 75%;
+  }
+}
+@media (min-width: 1850px) {
+  .misivalor_text {
+    width: 70%;
+  }
+}
+@media (min-width: 1950px) {
+  .misivalor_text {
+    width: 65%;
+  }
+}
+@media (min-width: 2005px) {
+  .misivalor_text {
+    width: 60%;
+  }
+}
+@media (min-width: 2500px) {
+  .misivalor_text {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media (min-width: 3005px) {
+  .misivalor_text {
+    width: 50%;
+  }
+}

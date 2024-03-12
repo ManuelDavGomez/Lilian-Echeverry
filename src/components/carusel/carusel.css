@@ -1,0 +1,48 @@
+* {
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+.carusel_contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.carusel_contenedor img {
+  width: 100%;
+}
+#item {
+  transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  -ms-transition: 0.1s ease-in-out;
+  -o-transition: 0.1s ease-in-out;
+  width: 100%;
+}
+#left {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#left:focus,
+#left:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+#right {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#right:focus,
+#right:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}

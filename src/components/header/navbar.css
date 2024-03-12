@@ -1,0 +1,51 @@
+#nav_bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+#dropdown {
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+#menu:hover {
+  background-color: rgb(63, 0, 63);
+}
+.navbar-toggler {
+  outline: 1px solid violet;
+}
+.navbar-toggler:hover {
+  outline: 1px solid purple;
+}
+.navbar-toggler i {
+  color: violet;
+  font-size: 20px;
+}
+.navbar-toggler i:hover {
+  color: purple;
+}
+.nav-item a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.nav-item a:hover {
+  color: #b700ff;
+}
+.nav-item a:focus {
+  color: #fff;
+}
+#navbarNav {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  justify-content: end;
+}

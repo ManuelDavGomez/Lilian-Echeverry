@@ -1,0 +1,23 @@
+{
+  "name": "lilian",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "react-tsparticles": "^2.11.0",
+    "slick-carousel": "^1.8.1",
+    "tsparticles": "^2.11.1"
+  }
+}
